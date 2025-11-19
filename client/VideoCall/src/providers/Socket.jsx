@@ -8,7 +8,7 @@ export const useSocket = () => {
 }
 
 const SocketProvider = (props) => {
-    const socket = useMemo(() => io(import.meta.env.VITE_SERVER_URL || 'http://localhost:8000'), [])
+    const socket = useMemo(() => io(import.meta.env.VITE_SERVER_URL || 'https://videocall-n33b.onrender.com'), [])
 
     return (
         <SocketContext.Provider value={{ socket }}>
