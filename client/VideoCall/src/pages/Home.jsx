@@ -1,6 +1,6 @@
 import React,{useCallback} from "react";
 import {useNavigate} from 'react-router-dom'
-import { useSocket } from "../providers/socket";
+import { useSocket } from "../providers/Socket";
 import { useState,useEffect } from "react";
 
 const HomePage = () => {

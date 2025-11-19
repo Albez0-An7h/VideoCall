@@ -1,5 +1,5 @@
 import React, { useEffect, useCallback, useRef } from "react";
-import { useSocket } from "../providers/socket";
+import { useSocket } from "../providers/Socket";
 import { usePeer } from "../providers/peer";
 import { useState } from "react";
 

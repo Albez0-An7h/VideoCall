@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom"
 import HomePage from "./pages/Home"
-import SocketProvider from "./providers/socket"
+import SocketProvider from "./providers/Socket"
 import RoomPage from "./pages/Room"
 import PeerProvider from "./providers/peer"
 
